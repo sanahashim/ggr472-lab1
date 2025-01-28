@@ -9,37 +9,59 @@
     <title>Education</title>
 </head>
 <body>
-    <div class="title">
+    <!-- Title Section -->
+    <div class="title bg-primary text-white text-center py-4 rounded-bottom shadow">
         <h1>Schools I Have Studied in Around the World</h1>
     </div>
-    <div class="schools">
-        <div class="schools_section">
-            <div class="school-item" class="school-item1">
-            <a href="https://www.utoronto.ca/"><h2 class="school-title">University of Toronto</h2></a>
-            <h3 class="school-location">Location: Ontario, Canada</h3>
-            <h3 class="school-years">Level: Undergradute Studies</h3>
-            <img class="school-image" src="./assets/utm.jpg" alt="UofT">
+
+    <!-- Schools Section -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <!-- University of Toronto -->
+            <div class="school-item col-md-6">
+                <a href="https://www.utoronto.ca" target="_blank" rel="noopener noreferrer">
+                    <h2 class="school-title text-primary">University of Toronto</h2>
+                </a>
+                <h3 class="school-location">Location: Ontario, Canada</h3>
+                <h3 class="school-years">Level: Undergraduate Studies</h3>
+                <img src="./assets/utm.jpg" alt="UofT" class="img-fluid rounded shadow">
             </div>
-            <div class="school-item" class="school-item2">
-                <a href="https://www.gemsakinternationalschool.com/en"><h2 class="school-title">Al Khaleej National School</h2></a>
+            <!-- Al Khaleej National School -->
+            <div class="school-item col-md-6">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <h2 class="school-title text-primary">Al Khaleej National School</h2>
+                </a>
                 <h3 class="school-location">Location: Dubai, UAE</h3>
                 <h3 class="school-years">Level: High School</h3>
-                <img class="school-image" src="./assets/akns.jpg" alt="AKNS">
+                <img src="./assets/akns.jpg" alt="AKNS" class="img-fluid rounded shadow">
             </div>
-            <div class="school-item" class="school-item3">
-                <a href="https://tapschool.ae/"><h2 class="school-title">Taryam American Private School</h2></a>
+            <!-- Taryam American Private School -->
+            <div class="school-item col-md-6">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <h2 class="school-title text-primary">Taryam American Private School</h2>
+                </a>
                 <h3 class="school-location">Location: Sharjah, UAE</h3>
                 <h3 class="school-years">Level: Middle School</h3>
-                <img class="school-image" src="./assets/taps.jpg" alt="TAPS">
+                <img src="./assets/taps.jpg" alt="TAPS" class="img-fluid rounded shadow">
             </div>
-            <div class="school-item" class="school-item4">
-                <a href="https://www.usaid.gov/basic-page/international-school-kabul-isk"><h2 class="school-title">International School of Kabul</h2></a> 
+            <!-- International School of Kabul -->
+            <div class="school-item col-md-6">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <h2 class="school-title text-primary">International School of Kabul</h2>
+                </a>
                 <h3 class="school-location">Location: Kabul, Afghanistan</h3>
                 <h3 class="school-years">Level: Elementary School</h3>
-                <img class="school-image" src="./assets/isk.jpg" alt="ISK">
+                <img src="./assets/isk.jpg" alt="ISK" class="img-fluid rounded shadow">
             </div>
         </div>
     </div>
-    <a class="geojson" href="./map.geojson">View schools through geojson file code</a>
-</body> 
+
+    <!-- GeoJSON Link -->
+    <div class="text-center mt-4">
+        <a class="geojson btn btn-outline-primary" href="mymappeddata.geojson" target="_blank" rel="noopener noreferrer">
+            View schools around the world through geojson file code
+        </a>
+    </div>
+
+</body>
 </html>
